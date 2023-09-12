@@ -1,0 +1,92 @@
+.cubo {
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-contato {
+    font-family: 'PT Serif';
+    margin-top: 4.5rem;
+}
+
+.titulo-contato h1 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-left: 8.333333333333333%;
+    margin-bottom: 2.4375rem;
+}
+
+form {
+    width: 41.66666666666667%;
+    margin-left: 8.333333333333333%;
+}
+
+label {
+    display: block;
+    font-size: 0.875rem;
+    margin-bottom: 0.625rem;
+}
+
+.form-row {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+input {
+    border: 1px solid #909090;
+    background: #F8F8F8;
+    height: 45px;
+    padding-left: 2.4rem;
+    width: 100%;
+}
+
+input:focus {
+    border: 1px solid #000000;
+    background: #65922D;
+    color: white;
+    outline: none;
+}
+
+.input-container {
+    position: relative;
+}
+
+.form-inline {
+    position: relative;
+}
+
+.input-container::before {
+    display: block;
+    font-family: 'Font Awesome 6 Free';
+    font-size: 1.125rem;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}
+
+.input-container-nome::before {
+    content: '\f007';
+}
+
+.input-container-mail::before {
+    content: '\f0e0'; 
+}
+
+.input-container-telefone::before {
+    content: '\f095';
+    font-weight: 900; 
+}
+
+#form-mensagem {
+    border: 1px solid #000000;
+    width: 536px;
+    height: 150px;
+    resize: vertical;
+}
+
+.button {
+    background-color: #65922D;
+    color: #fff;
+    padding: 0;
+    width: 91px;
+    height: 47px;
+}

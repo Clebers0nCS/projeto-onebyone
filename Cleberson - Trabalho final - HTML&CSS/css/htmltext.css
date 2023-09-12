@@ -1,0 +1,23 @@
+.img-prog>img {
+    width: 1320px;
+    height: 330px;
+    margin-bottom: 72px;
+}
+
+.text-decoration {
+    width: 872px;
+}
+
+.text-decoration>h1 {
+    font-family: 'PT Serif';
+    font-weight: 400;
+    font-size: 48px;
+    margin-bottom: 36px;
+}
+
+.text-decoration>p {
+    font-family: 'PT Sans';
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 177px;
+}
